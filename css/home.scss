@@ -30,21 +30,6 @@ a {
 	float: right;
 }
 
-.flat-btn {
-	padding: 10px 20px;
-	border-radius: 3px;
-	background-color: #65b3a2;
-	font-weight: 400;
-	font-size: 18px;
-	color: #fffdfa;
-	text-decoration: none;
-	text-align: center;
-	transition: background-color 0.1s ease;
-	&:hover {
-		background-color: #60A899;
-	}
-}
-
 ul.unstyled {
 	list-style: none;
 }
@@ -162,9 +147,23 @@ section {
 }
 
 footer {
-	color: #d0d5d4;
 	padding: 50px 0 35px;
-	text-align: center
+	text-align: center;
+	a {
+		color: #d0d5d4;
+		padding: 10px 20px;
+		border-radius: 3px;
+		background-color: transparent;
+		font-weight: 400;
+		font-size: 18px;
+		color: #fffdfa;
+		text-decoration: none;
+		text-align: center;
+		transition: background-color 0.1s ease;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
 
 @media screen and (min-width: 1040px) {
@@ -197,17 +196,17 @@ footer {
 
 			.tiles {
 				margin: 0 -10px;
+				text-align: center;
 
 				.tile {
-					width: 490px;
-					margin: 15px 10px;
-					float: left;
+					width: 430px;
+					margin: 15px 18px;
+					display: inline-block;
 
 					a {
-						text-align: center;
 						display: inline-block;
-						font-weight: 200;
-						font-size: 18px;
+						font-weight: 300;
+						font-size: 20px;
 						color: #746f65;
 					}
 				}
@@ -255,10 +254,6 @@ footer {
 		text-align: center;
 		padding-left: 12px;
 		padding-right: 12px;
-		.flat-btn {
-			float: none;
-			display: block;
-		}
 	}
 }
 
