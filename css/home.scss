@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
 	position: relative;
-	padding: 130px 0;
+	padding: 100px 0;
 	color: #746f65;
 	background-color: #fffdfa;
 
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 			float: left;
 			a {
 				padding: 10px;
-				font-size: 18px;
+				font-size: 20px;
 				color: #cdcac6;
 				&:hover {
 					color: darken(#cdcac6, 10);
@@ -163,13 +163,8 @@ section {
 
 footer {
 	color: #d0d5d4;
-	padding: 40px 35px 35px 35px;
-	text-align: center;
-
-	.copy-text {
-		height: 40px;
-		line-height: 40px;
-	}
+	padding: 50px 0 35px;
+	text-align: center
 }
 
 @media screen and (min-width: 1040px) {
@@ -195,7 +190,7 @@ footer {
 		}
 	}
 	section {
-		padding: 130px 20px;
+		padding: 50px 20px;
 
 		.wrapper {
 			width: 1000px;
@@ -257,14 +252,9 @@ footer {
 		}
 	}
 	footer {
+		text-align: center;
 		padding-left: 12px;
 		padding-right: 12px;
-		.copy-text {
-			display: block;
-			padding-top: 10px;
-			float: none;
-			text-align: center;
-		}
 		.flat-btn {
 			float: none;
 			display: block;
@@ -293,7 +283,7 @@ footer {
 		}
 
 		.social-links {
-			width: 115px;
+			width: 120px;
 			margin: 0 auto;
 		}
 	}
