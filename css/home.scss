@@ -265,17 +265,16 @@ footer {
 	}
 }
 
-@media screen and (max-width: 1039px) and (min-width: 540px) {
-	.bio {
-		margin: 0 auto;
-	}
-}
-
-@media screen and (max-width: 1039px) and (min-width: 321px) {
-	.header {
+@media screen and (max-width: 1039px) {
+  .header {
 		.name {
 			text-align: center;
-		}
+    }
+
+    .bio {
+      margin: 0 auto;
+      text-align: center;
+    }
 
 		.social-links {
 			width: 120px;
